@@ -1,5 +1,7 @@
-export const dynamic = 'force-dynamic'
 'use client'
+
+export const dynamic = 'force-dynamic'
+
 import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase'
 import { BarChart3, TrendingUp, TrendingDown, Download } from 'lucide-react'
