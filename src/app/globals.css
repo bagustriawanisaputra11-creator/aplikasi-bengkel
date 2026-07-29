@@ -7,3 +7,13 @@ body { font-family: system-ui, -apple-system, sans-serif; background: #f1f5f9; }
   .print-only { display: block !important; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; background: #fff; overflow-y: auto; }
   .no-print { display: none !important; }
 }
+
+@media (max-width: 768px) {
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .table-scroll table { min-width: 550px; }
+  .hide-mobile { display: none !important; }
+  .compact-p { padding: 10px 12px !important; }
+  .compact-text { font-size: 12px !important; }
+  .compact-card { padding: 12px !important; }
+  .compact-gap { gap: 8px !important; }
+}
